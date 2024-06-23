@@ -63,4 +63,82 @@ class FRRClientRouting:
     def remove_static_route(self, destination):
         return self.execute_command(f"configure terminal ; no ip route {destination}")
 
-    # Additional commands can be added as needed
+    def start_bgp(self, port=None, listenon=None, daemon=None, config_file=None, no_kernel=None):
+        command = "bgpd"
+        if port:
+            command += f" -p {port}"
+        if listenon:
+            command += f" -l {listenon}"
+        if daemon:
+            command += " -d"
+        if config_file:
+            command += f" -f {config_file}"
+        if no_kernel:
+            command += " -n"
+        return self.execute_command(command)
+
+    def debug_bgp(self, command):
+        return self.execute_command(f"debug {command}")
+
+    def dump_bgp(self, command):
+        return self.execute_command(f"dump {command}")
+
+    def show_bgp(self, command):
+        return self.execute_command(f"show {command}")
+
+    def show_bgp_dampening(self, command):
+        return self.execute_command(f"show {command}")
+
+    def show_bgp_segment_routing(self):
+        return self.execute_command("show bgp segment-routing srv6")
+
+    def show_bgp_route_reflector(self):
+        return self.execute_command("show bgp dampening flap-statistics")
+
+    def show_bgp_statistics(self):
+        return self.execute_command("show bgp statistics-all")
+
+    def show_bgp_cidr_only(self):
+        return self.execute_command("show ip bgp cidr-only")
+
+    def show_bgp_neighbor_routes(self, command):
+        return self.execute_command(f"show {command}")
+    
+
+    # OSPFv2 Commands
+    def start_ospf(self, instance=None, vrf=None):
+        command = "router ospf"
+        if instance:
+            command += f" {instance}"
+        if vrf:
+            command += f" vrf {vrf}"
+        return self.execute_command(command)
+
+    def set_ospf_router_id(self, router_id):
+        return self.execute_command(f"ospf router-id {router_id}")
+
+    def debug_ospf(self, command):
+        return self.execute_command(f"debug ospf {command}")
+
+    def show_ospf(self, command):
+        return self.execute_command(f"show ip ospf {command}")
+
+    def clear_ospf(self, command):
+        return self.execute_command(f"clear ip ospf {command}")
+
+    # OSPFv3 Commands
+    def start_ospfv3(self):
+        return self.execute_command("router ospf6")
+
+    def set_ospfv3_router_id(self, router_id):
+        return self.execute_command(f"ospf6 router-id {router_id}")
+
+    def debug_ospfv3(self, command):
+        return self.execute_command(f"debug ospf6 {command}")
+
+    def show_ospfv3(self, command):
+        return self.execute_command(f"show ipv6 ospf6 {command}")
+
+    def clear_ospfv3(self, command):
+        return self.execute_command(f"clear ipv6 ospf6 {command}")
+
