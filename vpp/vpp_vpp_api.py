@@ -19,19 +19,3 @@ class VPPClientVppApi:
     def set_significant_error(self, error_code):
         return self.execute_command(f"set significant error {error_code}")
 
-# Example usage
-if __name__ == "__main__":
-    vpp_client_vpp_api = VPPClientVppApi()
-
-    # Example: Show ARP Event Registrations
-    stdout, stderr = vpp_client_vpp_api.show_arp_event_registrations()
-    print("Show ARP Event Registrations Output:", stdout)
-    print("Show ARP Event Registrations Error:", stderr)
-
-    # Example: Set Significant Error
-    error_code = 123  # Specify the error code
-    stdout, stderr = vpp_client_vpp_api.set_significant_error(error_code)
-    print("Set Significant Error Output:", stdout)
-    print("Set Significant Error Error:", stderr)
-
-    # Add additional example usages as needed
