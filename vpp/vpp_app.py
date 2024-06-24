@@ -25,28 +25,3 @@ class VPPAppCommands:
     def ip_virtual(self):
         return self.execute_command("ip virtual")
 
-# Example usage
-if __name__ == "__main__":
-    vpp_app = VPPAppCommands()
-
-    # Example: IP Sticky Classify
-    stdout, stderr = vpp_app.ip_sticky_classify()
-    print("IP Sticky Classify Output:", stdout)
-    print("IP Sticky Classify Error:", stderr)
-
-    # Example: Show Sticky Classify
-    stdout, stderr = vpp_app.show_sticky_classify()
-    print("Show Sticky Classify Output:", stdout)
-    print("Show Sticky Classify Error:", stderr)
-
-    # Example: Show Version
-    stdout, stderr = vpp_app.show_version()
-    print("Show Version Output:", stdout)
-    print("Show Version Error:", stderr)
-
-    # Example: IP Virtual
-    stdout, stderr = vpp_app.ip_virtual()
-    print("IP Virtual Output:", stdout)
-    print("IP Virtual Error:", stderr)
-
-    # Add additional example usages as needed for other commands

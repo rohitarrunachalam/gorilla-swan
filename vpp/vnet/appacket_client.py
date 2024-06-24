@@ -4,7 +4,7 @@ from command import VPPCommand
 logging.basicConfig(filename='logs/vpppy.log', level=logging.DEBUG, format='%(asctime)s %(levelname)s %(message)s')
 
 
-class AFPacketClient:
+class APPacketClient:
     def __init__(self):
         self.vpp_command = VPPCommand()  # Assuming VPPCommand is appropriately defined
         self.logger = logging.getLogger(__name__)
