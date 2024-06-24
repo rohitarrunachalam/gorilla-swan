@@ -19,4 +19,18 @@ class VPPOAMCommands:
     def show_oam(self):
         return self.execute_command("show oam")
 
+# Example usage
+if __name__ == "__main__":
+    vpp_oam = VPPOAMCommands()
 
+    # Example: OAM
+    stdout, stderr = vpp_oam.oam()
+    print("OAM Output:", stdout)
+    print("OAM Error:", stderr)
+
+    # Example: Show OAM
+    stdout, stderr = vpp_oam.show_oam()
+    print("Show OAM Output:", stdout)
+    print("Show OAM Error:", stderr)
+
+    # Add additional example usages as needed for other commands
