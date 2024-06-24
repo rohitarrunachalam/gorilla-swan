@@ -26,3 +26,10 @@ class COPClient:
         return self.run_vpp_command(command)
 
 
+# Example usage
+if __name__ == "__main__":
+    client = COPClient()
+
+    # Example command execution
+    print(client.cop_interface('GigabitEthernet0/8/0', 'input-acl', '1'))
+    print(client.cop_whitelist('add', '10.0.0.1'))
