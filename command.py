@@ -1,11 +1,11 @@
 import subprocess
 import logging
 
-class FRRCommand:
+class VPPCommand:
     def __init__(self):
         pass
 
-    def run_vtysh_command(self, command):
+    def run_vpp_command(self, command):
         try:
             logging.info(f"Running command: {command}")
             result = subprocess.run(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
@@ -22,5 +22,5 @@ class FRRCommand:
             return "", str(e)
 
     def execute_command(self, command):
-        full_command = f'vtysh -c "{command}"'
-        return self.run_vtysh_command(full_command)
+        full_command = f'vppctl {command}'
+        return self.run_vppctl_command(full_command)
