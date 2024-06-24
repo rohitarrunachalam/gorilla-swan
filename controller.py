@@ -556,8 +556,7 @@
 #     app.run(host='0.0.0.0', port=5000)
 
 
-
-from flask import Flask, request, jsonify
+from flask import Flask, request
 from flask_restx import Api, Resource, fields
 from frr.frr_client_routing import FRRClientRouting
 from frr.frr_client_system import FRRClientSystem
@@ -565,114 +564,88 @@ from frr.frr_client_filtering import FRRClientFiltering
 from frr.frr_client_routemap import FRRClientRouteMap
 import logging
 
-app = Flask(__name__)
-api = Api(app, version='1.0', title='FRRouting API', description='APIs for interacting with FRRouting')
-
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Initialize FRR client objects
+app = Flask(__name__)
+api = Api(app, version='1.0', title='FRR API', description='API for managing FRR configurations')
+
 frr_client_routing = FRRClientRouting()
 frr_client_system = FRRClientSystem()
 frr_client_filtering = FRRClientFiltering()
 frr_client_routemap = FRRClientRouteMap()
 
-# Define namespaces for grouping related endpoints
-system_ns = api.namespace('system', description='System related operations')
-bgp_ns = api.namespace('bgp', description='BGP related operations')
-ospf_ns = api.namespace('ospf', description='OSPF related operations')
-filter_ns = api.namespace('filter', description='Filtering related operations')
-routemap_ns = api.namespace('routemap', description='Route Map related operations')
+# Define namespaces
+ns_system = api.namespace('system', description='System operations')
+ns_bgp = api.namespace('bgp', description='BGP operations')
+ns_ospf = api.namespace('ospf', description='OSPF operations')
+ns_ospfv3 = api.namespace('ospfv3', description='OSPFv3 operations')
+ns_filter = api.namespace('filter', description='Filtering operations')
+ns_routemap = api.namespace('routemap', description='Route map operations')
 
-# DTOs (Data Transfer Objects) for request and response payloads
+# Models for request validation
 command_model = api.model('Command', {
-    'command': fields.String(required=True, description='Command to execute')
+    'command': fields.String(required=True, description='The command to execute')
 })
 
-neighbor_model = api.model('BGPNeighbor', {
-    'neighbor_address': fields.String(required=True, description='Neighbor IP address'),
+bgp_neighbor_model = api.model('BGPLocalNeighbor', {
+    'neighbor_address': fields.String(required=True, description='BGP neighbor address'),
     'peer_as': fields.Integer(required=True, description='Peer AS number')
 })
 
-network_model = api.model('OSPFNetwork', {
-    'network': fields.String(required=True, description='Network address'),
+ospf_network_model = api.model('OSPFNetwork', {
+    'network': fields.String(required=True, description='OSPF network'),
     'area': fields.String(required=True, description='OSPF area')
 })
 
 access_list_model = api.model('AccessList', {
     'name': fields.String(required=True, description='Access list name'),
-    'action': fields.String(required=True, description='Action to apply'),
-    'network': fields.String(required=True, description='Network to filter'),
-    'seq': fields.Integer(required=True, description='Sequence number')
+    'action': fields.String(required=True, description='Action (permit/deny)'),
+    'network': fields.String(required=True, description='Network'),
+    'seq': fields.Integer(required=False, description='Sequence number')
 })
 
 prefix_list_model = api.model('PrefixList', {
     'name': fields.String(required=True, description='Prefix list name'),
-    'action': fields.String(required=True, description='Action to apply'),
-    'prefix': fields.String(required=True, description='Prefix to filter'),
-    'seq': fields.Integer(required=True, description='Sequence number'),
-    'le': fields.Integer(description='Maximum prefix length'),
-    'ge': fields.Integer(description='Minimum prefix length')
+    'action': fields.String(required=True, description='Action (permit/deny)'),
+    'prefix': fields.String(required=True, description='Prefix'),
+    'seq': fields.Integer(required=False, description='Sequence number'),
+    'le': fields.Integer(required=False, description='Less than or equal to'),
+    'ge': fields.Integer(required=False, description='Greater than or equal to')
 })
 
 route_map_model = api.model('RouteMap', {
     'name': fields.String(required=True, description='Route map name'),
-    'action': fields.String(required=True, description='Action to apply'),
-    'order': fields.Integer(required=True, description='Sequence order')
+    'action': fields.String(required=True, description='Action (permit/deny)'),
+    'order': fields.Integer(required=True, description='Order')
 })
 
 static_route_model = api.model('StaticRoute', {
-    'destination': fields.String(required=True, description='Destination network'),
-    'gateway': fields.String(required=True, description='Gateway IP address')
+    'destination': fields.String(required=True, description='Destination'),
+    'gateway': fields.String(required=True, description='Gateway')
 })
 
 bgp_start_model = api.model('BGPStart', {
-    'port': fields.Integer(description='BGP port number'),
-    'listenon': fields.String(description='Listen on specific address'),
-    'daemon': fields.Boolean(description='Run BGP daemon'),
-    'config_file': fields.String(description='BGP configuration file'),
-    'no_kernel': fields.Boolean(description='Do not use kernel routing tables')
+    'port': fields.Integer(required=False, description='Port'),
+    'listenon': fields.String(required=False, description='Listen on'),
+    'daemon': fields.String(required=False, description='Daemon'),
+    'config_file': fields.String(required=False, description='Config file'),
+    'no_kernel': fields.Boolean(required=False, description='No kernel')
 })
 
-bgp_debug_model = api.model('BGPDebug', {
-    'command': fields.String(required=True, description='Debug command')
+router_id_model = api.model('RouterID', {
+    'router_id': fields.String(required=True, description='Router ID')
 })
 
-bgp_dump_model = api.model('BGPDump', {
-    'command': fields.String(required=True, description='Dump command')
-})
 
-bgp_show_model = api.model('BGPShow', {
-    'command': fields.String(required=True, description='Show command')
-})
-
-ospf_start_model = api.model('OSPFStart', {
-    'instance': fields.String(description='OSPF instance name'),
-    'vrf': fields.String(description='OSPF VRF name')
-})
-
-ospf_router_id_model = api.model('OSPFRouterID', {
-    'router_id': fields.String(required=True, description='OSPF router ID')
-})
-
-ospf_debug_model = api.model('OSPFDebug', {
-    'command': fields.String(required=True, description='Debug command')
-})
-
-ospf_clear_model = api.model('OSPFClear', {
-    'command': fields.String(required=True, description='Clear command')
-})
-
-# System Endpoints
-@system_ns.route('/execute')
+# System endpoints
+@ns_system.route('/execute')
 class ExecuteCommand(Resource):
-    @api.expect(command_model)
+    @ns_system.expect(command_model)
     def post(self):
+        data = request.json
+        command = data['command']
         try:
-            data = request.json
-            command = data.get('command')
-            if not command:
-                raise ValueError("Command is required")
             stdout, stderr = frr_client_system.execute_command(command)
             if stderr:
                 return {'error': stderr}, 400
@@ -681,7 +654,7 @@ class ExecuteCommand(Resource):
             logging.exception(f"Error executing command: {e}")
             return {'error': str(e)}, 500
 
-@system_ns.route('/version')
+@ns_system.route('/version')
 class GetVersion(Resource):
     def get(self):
         try:
@@ -693,7 +666,7 @@ class GetVersion(Resource):
             logging.exception(f"Error retrieving version: {e}")
             return {'error': str(e)}, 500
 
-@system_ns.route('/interfaces')
+@ns_system.route('/interfaces')
 class GetInterfaces(Resource):
     def get(self):
         try:
@@ -705,9 +678,10 @@ class GetInterfaces(Resource):
             logging.exception(f"Error retrieving interfaces: {e}")
             return {'error': str(e)}, 500
 
-# BGP Endpoints
-@bgp_ns.route('/neighbors')
-class BGPNeighbors(Resource):
+
+# BGP endpoints
+@ns_bgp.route('/neighbors')
+class GetBGPNeighbors(Resource):
     def get(self):
         try:
             stdout, stderr = frr_client_routing.get_bgp_neighbors()
@@ -718,16 +692,14 @@ class BGPNeighbors(Resource):
             logging.exception(f"Error retrieving BGP neighbors: {e}")
             return {'error': str(e)}, 500
 
-@bgp_ns.route('/neighbor')
+@ns_bgp.route('/neighbor')
 class BGPNeighbor(Resource):
-    @api.expect(neighbor_model)
+    @ns_bgp.expect(bgp_neighbor_model)
     def post(self):
+        data = request.json
+        neighbor_address = data['neighbor_address']
+        peer_as = data['peer_as']
         try:
-            data = request.json
-            neighbor_address = data.get('neighbor_address')
-            peer_as = data.get('peer_as')
-            if not neighbor_address or not peer_as:
-                raise ValueError("neighbor_address and peer_as are required")
             stdout, stderr = frr_client_routing.add_bgp_neighbor(64512, neighbor_address, peer_as)
             if stderr:
                 return {'error': stderr}, 400
@@ -736,13 +708,11 @@ class BGPNeighbor(Resource):
             logging.exception(f"Error adding BGP neighbor: {e}")
             return {'error': str(e)}, 500
 
-    @api.expect(neighbor_model)
+    @ns_bgp.expect(command_model)
     def delete(self):
+        data = request.json
+        neighbor_address = data['neighbor_address']
         try:
-            data = request.json
-            neighbor_address = data.get('neighbor_address')
-            if not neighbor_address:
-                raise ValueError("neighbor_address is required")
             stdout, stderr = frr_client_routing.remove_bgp_neighbor(64512, neighbor_address)
             if stderr:
                 return {'error': stderr}, 400
@@ -751,17 +721,17 @@ class BGPNeighbor(Resource):
             logging.exception(f"Error removing BGP neighbor: {e}")
             return {'error': str(e)}, 500
 
-@bgp_ns.route('/start')
-class BGPStart(Resource):
-    @api.expect(bgp_start_model)
+@ns_bgp.route('/start')
+class StartBGP(Resource):
+    @ns_bgp.expect(bgp_start_model)
     def post(self):
+        data = request.json
+        port = data.get('port')
+        listenon = data.get('listenon')
+        daemon = data.get('daemon')
+        config_file = data.get('config_file')
+        no_kernel = data.get('no_kernel')
         try:
-            data = request.json
-            port = data.get('port')
-            listenon = data.get('listenon')
-            daemon = data.get('daemon')
-            config_file = data.get('config_file')
-            no_kernel = data.get('no_kernel')
             stdout, stderr = frr_client_routing.start_bgp(port, listenon, daemon, config_file, no_kernel)
             if stderr:
                 return {'error': stderr}, 400
@@ -770,15 +740,13 @@ class BGPStart(Resource):
             logging.exception(f"Error starting BGP: {e}")
             return {'error': str(e)}, 500
 
-@bgp_ns.route('/debug')
-class BGPDebug(Resource):
-    @api.expect(bgp_debug_model)
+@ns_bgp.route('/debug')
+class DebugBGP(Resource):
+    @ns_bgp.expect(command_model)
     def post(self):
+        data = request.json
+        command = data['command']
         try:
-            data = request.json
-            command = data.get('command')
-            if not command:
-                raise ValueError("command is required")
             stdout, stderr = frr_client_routing.debug_bgp(command)
             if stderr:
                 return {'error': stderr}, 400
@@ -786,19 +754,14 @@ class BGPDebug(Resource):
         except Exception as e:
             logging.exception(f"Error debugging BGP: {e}")
             return {'error': str(e)}, 500
-        
 
-# ... (Previous code remains unchanged)
-
-@bgp_ns.route('/dump')
-class BGPDump(Resource):
-    @api.expect(bgp_dump_model)
+@ns_bgp.route('/dump')
+class DumpBGP(Resource):
+    @ns_bgp.expect(command_model)
     def post(self):
+        data = request.json
+        command = data['command']
         try:
-            data = request.json
-            command = data.get('command')
-            if not command:
-                raise ValueError("command is required")
             stdout, stderr = frr_client_routing.dump_bgp(command)
             if stderr:
                 return {'error': stderr}, 400
@@ -807,171 +770,208 @@ class BGPDump(Resource):
             logging.exception(f"Error dumping BGP: {e}")
             return {'error': str(e)}, 500
 
-@bgp_ns.route('/show')
-class BGPShow(Resource):
-    @api.expect(bgp_show_model)
-    def post(self):
+@ns_bgp.route('/show')
+class ShowBGP(Resource):
+    def get(self):
+        command = request.args.get('command')
+        if not command:
+            return {'error': 'command is required'}, 400
         try:
-            data = request.json
-            command = data.get('command')
-            if not command:
-                raise ValueError("command is required")
             stdout, stderr = frr_client_routing.show_bgp(command)
             if stderr:
                 return {'error': stderr}, 400
             return {'output': stdout}
         except Exception as e:
-            logging.exception(f"Error showing BGP: {e}")
+            logging.exception(f"Error showing BGP information: {e}")
             return {'error': str(e)}, 500
 
-@ospf_ns.route('/start')
-class OSPFStart(Resource):
-    @api.expect(ospf_start_model)
-    def post(self):
+@ns_bgp.route('/dampening')
+class ShowBGPDampening(Resource):
+    def get(self):
+        command = request.args.get('command')
+        if not command:
+            return {'error': 'command is required'}, 400
         try:
-            data = request.json
-            instance = data.get('instance')
-            vrf = data.get('vrf')
-            stdout, stderr = frr_client_routing.start_ospf(instance, vrf)
+            stdout, stderr = frr_client_routing.show_bgp_dampening(command)
             if stderr:
                 return {'error': stderr}, 400
             return {'output': stdout}
         except Exception as e:
-            logging.exception(f"Error starting OSPF: {e}")
+            logging.exception(f"Error showing BGP dampening information: {e}")
             return {'error': str(e)}, 500
 
-@ospf_ns.route('/router-id')
-class OSPFRouterID(Resource):
-    @api.expect(ospf_router_id_model)
+
+# OSPF endpoints
+@ns_ospf.route('/network')
+class OSPFNetwork(Resource):
+    @ns_ospf.expect(ospf_network_model)
     def post(self):
+        data = request.json
+        network = data['network']
+        area = data['area']
         try:
-            data = request.json
-            router_id = data.get('router_id')
-            stdout, stderr = frr_client_routing.set_ospf_router_id(router_id)
+            stdout, stderr = frr_client_routing.add_ospf_network(network, area)
             if stderr:
                 return {'error': stderr}, 400
             return {'output': stdout}
         except Exception as e:
-            logging.exception(f"Error setting OSPF router ID: {e}")
+            logging.exception(f"Error adding OSPF network: {e}")
             return {'error': str(e)}, 500
 
-@ospf_ns.route('/debug')
-class OSPFDebug(Resource):
-    @api.expect(ospf_debug_model)
-    def post(self):
+    @ns_ospf.expect(ospf_network_model)
+    def delete(self):
+        data = request.json
+        network = data['network']
+        area = data['area']
         try:
-            data = request.json
-            command = data.get('command')
-            if not command:
-                raise ValueError("command is required")
-            stdout, stderr = frr_client_routing.debug_ospf(command)
+            stdout, stderr = frr_client_routing.remove_ospf_network(network, area)
             if stderr:
                 return {'error': stderr}, 400
             return {'output': stdout}
         except Exception as e:
-            logging.exception(f"Error debugging OSPF: {e}")
+            logging.exception(f"Error removing OSPF network: {e}")
             return {'error': str(e)}, 500
 
-@ospf_ns.route('/clear')
-class OSPFClear(Resource):
-    @api.expect(ospf_clear_model)
+
+# OSPFv3 endpoints
+@ns_ospfv3.route('/network')
+class OSPFv3Network(Resource):
+    @ns_ospfv3.expect(ospf_network_model)
     def post(self):
+        data = request.json
+        network = data['network']
+        area = data['area']
         try:
-            data = request.json
-            command = data.get('command')
-            if not command:
-                raise ValueError("command is required")
-            stdout, stderr = frr_client_routing.clear_ospf(command)
+            stdout, stderr = frr_client_routing.add_ospfv3_network(network, area)
             if stderr:
                 return {'error': stderr}, 400
             return {'output': stdout}
         except Exception as e:
-            logging.exception(f"Error clearing OSPF: {e}")
+            logging.exception(f"Error adding OSPFv3 network: {e}")
             return {'error': str(e)}, 500
 
-@filter_ns.route('/access-list')
+    @ns_ospfv3.expect(ospf_network_model)
+    def delete(self):
+        data = request.json
+        network = data['network']
+        area = data['area']
+        try:
+            stdout, stderr = frr_client_routing.remove_ospfv3_network(network, area)
+            if stderr:
+                return {'error': stderr}, 400
+            return {'output': stdout}
+        except Exception as e:
+            logging.exception(f"Error removing OSPFv3 network: {e}")
+            return {'error': str(e)}, 500
+
+
+# Filtering endpoints
+@ns_filter.route('/access-list')
 class AccessList(Resource):
-    @api.expect(access_list_model)
+    @ns_filter.expect(access_list_model)
     def post(self):
+        data = request.json
+        name = data['name']
+        action = data['action']
+        network = data['network']
+        seq = data.get('seq')
         try:
-            data = request.json
-            name = data.get('name')
-            action = data.get('action')
-            network = data.get('network')
-            seq = data.get('seq')
-            stdout, stderr = frr_client_filtering.create_access_list(name, action, network, seq)
+            stdout, stderr = frr_client_filtering.add_access_list(name, action, network, seq)
             if stderr:
                 return {'error': stderr}, 400
             return {'output': stdout}
         except Exception as e:
-            logging.exception(f"Error creating access list: {e}")
+            logging.exception(f"Error adding access list: {e}")
             return {'error': str(e)}, 500
 
-@filter_ns.route('/prefix-list')
+    @ns_filter.expect(access_list_model)
+    def delete(self):
+        data = request.json
+        name = data['name']
+        action = data['action']
+        network = data['network']
+        seq = data.get('seq')
+        try:
+            stdout, stderr = frr_client_filtering.remove_access_list(name, action, network, seq)
+            if stderr:
+                return {'error': stderr}, 400
+            return {'output': stdout}
+        except Exception as e:
+            logging.exception(f"Error removing access list: {e}")
+            return {'error': str(e)}, 500
+
+@ns_filter.route('/prefix-list')
 class PrefixList(Resource):
-    @api.expect(prefix_list_model)
+    @ns_filter.expect(prefix_list_model)
     def post(self):
+        data = request.json
+        name = data['name']
+        action = data['action']
+        prefix = data['prefix']
+        seq = data.get('seq')
+        le = data.get('le')
+        ge = data.get('ge')
         try:
-            data = request.json
-            name = data.get('name')
-            action = data.get('action')
-            prefix = data.get('prefix')
-            seq = data.get('seq')
-            le = data.get('le')
-            ge = data.get('ge')
-            stdout, stderr = frr_client_filtering.create_prefix_list(name, action, prefix, seq, le, ge)
+            stdout, stderr = frr_client_filtering.add_prefix_list(name, action, prefix, seq, le, ge)
             if stderr:
                 return {'error': stderr}, 400
             return {'output': stdout}
         except Exception as e:
-            logging.exception(f"Error creating prefix list: {e}")
+            logging.exception(f"Error adding prefix list: {e}")
             return {'error': str(e)}, 500
 
-@routemap_ns.route('/route-map')
+    @ns_filter.expect(prefix_list_model)
+    def delete(self):
+        data = request.json
+        name = data['name']
+        action = data['action']
+        prefix = data['prefix']
+        seq = data.get('seq')
+        le = data.get('le')
+        ge = data.get('ge')
+        try:
+            stdout, stderr = frr_client_filtering.remove_prefix_list(name, action, prefix, seq, le, ge)
+            if stderr:
+                return {'error': stderr}, 400
+            return {'output': stdout}
+        except Exception as e:
+            logging.exception(f"Error removing prefix list: {e}")
+            return {'error': str(e)}, 500
+
+
+# Route map endpoints
+@ns_routemap.route('/')
 class RouteMap(Resource):
-    @api.expect(route_map_model)
+    @ns_routemap.expect(route_map_model)
     def post(self):
+        data = request.json
+        name = data['name']
+        action = data['action']
+        order = data['order']
         try:
-            data = request.json
-            name = data.get('name')
-            action = data.get('action')
-            order = data.get('order')
-            stdout, stderr = frr_client_routemap.create_route_map(name, action, order)
+            stdout, stderr = frr_client_routemap.add_route_map(name, action, order)
             if stderr:
                 return {'error': stderr}, 400
             return {'output': stdout}
         except Exception as e:
-            logging.exception(f"Error creating route map: {e}")
+            logging.exception(f"Error adding route map: {e}")
             return {'error': str(e)}, 500
 
-@routemap_ns.route('/route-map/<string:name>')
-class RouteMapByName(Resource):
-    def delete(self, name):
+    @ns_routemap.expect(route_map_model)
+    def delete(self):
+        data = request.json
+        name = data['name']
+        action = data['action']
+        order = data['order']
         try:
-            stdout, stderr = frr_client_routemap.delete_route_map(name)
+            stdout, stderr = frr_client_routemap.remove_route_map(name, action, order)
             if stderr:
                 return {'error': stderr}, 400
             return {'output': stdout}
         except Exception as e:
-            logging.exception(f"Error deleting route map: {e}")
-            return {'error': str(e)}, 500
-
-@routemap_ns.route('/route-map/<string:name>/entry')
-class RouteMapEntry(Resource):
-    @api.expect(route_map_model)
-    def post(self, name):
-        try:
-            data = request.json
-            action = data.get('action')
-            order = data.get('order')
-            stdout, stderr = frr_client_routemap.create_route_map_entry(name, action, order)
-            if stderr:
-                return {'error': stderr}, 400
-            return {'output': stdout}
-        except Exception as e:
-            logging.exception(f"Error creating route map entry: {e}")
+            logging.exception(f"Error removing route map: {e}")
             return {'error': str(e)}, 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
 
