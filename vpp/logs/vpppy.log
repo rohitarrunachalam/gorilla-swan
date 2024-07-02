@@ -1,0 +1,1137 @@
+2024-06-24 09:50:23,962 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 09:50:23,962 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 09:50:23,984 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 09:50:24,378 WARNING  * Debugger is active!
+2024-06-24 09:50:24,382 INFO  * Debugger PIN: 136-464-205
+2024-06-24 09:50:40,370 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 09:50:40,370 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 09:50:40,378 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 09:50:40,720 WARNING  * Debugger is active!
+2024-06-24 09:50:40,723 INFO  * Debugger PIN: 136-464-205
+2024-06-24 09:51:11,544 INFO 127.0.0.1 - - [24/Jun/2024 09:51:11] "GET / HTTP/1.1" 200 -
+2024-06-24 09:51:11,856 INFO 127.0.0.1 - - [24/Jun/2024 09:51:11] "GET /swaggerui/droid-sans.css HTTP/1.1" 200 -
+2024-06-24 09:51:11,859 INFO 127.0.0.1 - - [24/Jun/2024 09:51:11] "GET /swaggerui/swagger-ui.css HTTP/1.1" 200 -
+2024-06-24 09:51:11,899 INFO 127.0.0.1 - - [24/Jun/2024 09:51:11] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 200 -
+2024-06-24 09:51:12,102 INFO 127.0.0.1 - - [24/Jun/2024 09:51:12] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2024-06-24 09:51:12,303 INFO 127.0.0.1 - - [24/Jun/2024 09:51:12] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 09:51:12,360 INFO 127.0.0.1 - - [24/Jun/2024 09:51:12] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+2024-06-24 09:56:23,658 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 09:56:23,658 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 09:56:23,668 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 09:56:24,020 WARNING  * Debugger is active!
+2024-06-24 09:56:24,023 INFO  * Debugger PIN: 136-464-205
+2024-06-24 09:56:35,248 INFO 127.0.0.1 - - [24/Jun/2024 09:56:35] "GET / HTTP/1.1" 200 -
+2024-06-24 09:56:35,597 INFO 127.0.0.1 - - [24/Jun/2024 09:56:35] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 09:56:35,598 INFO 127.0.0.1 - - [24/Jun/2024 09:56:35] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 09:56:35,599 INFO 127.0.0.1 - - [24/Jun/2024 09:56:35] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 09:56:35,599 INFO 127.0.0.1 - - [24/Jun/2024 09:56:35] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 09:56:35,910 INFO 127.0.0.1 - - [24/Jun/2024 09:56:35] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 09:59:29,724 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 09:59:29,724 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 09:59:30,668 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:00:04,368 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 10:00:04,368 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 10:00:04,378 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:00:04,768 WARNING  * Debugger is active!
+2024-06-24 10:00:04,771 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:00:10,895 INFO 127.0.0.1 - - [24/Jun/2024 10:00:10] "GET / HTTP/1.1" 200 -
+2024-06-24 10:00:11,231 INFO 127.0.0.1 - - [24/Jun/2024 10:00:11] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 10:00:11,235 INFO 127.0.0.1 - - [24/Jun/2024 10:00:11] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 10:00:11,236 INFO 127.0.0.1 - - [24/Jun/2024 10:00:11] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 10:00:11,236 INFO 127.0.0.1 - - [24/Jun/2024 10:00:11] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 10:00:11,557 INFO 127.0.0.1 - - [24/Jun/2024 10:00:11] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 10:01:02,133 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\views.py', reloading
+2024-06-24 10:01:03,134 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:01:03,670 WARNING  * Debugger is active!
+2024-06-24 10:01:03,673 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:01:18,265 INFO Running command: quit
+2024-06-24 10:01:18,295 ERROR Command 'quit' failed with error: b"'quit' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"
+2024-06-24 10:01:18,296 INFO 127.0.0.1 - - [24/Jun/2024 10:01:18] "GET /debug/quit HTTP/1.1" 200 -
+2024-06-24 10:01:45,595 INFO Running command: quit
+2024-06-24 10:01:45,609 ERROR Command 'quit' failed with error: b"'quit' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"
+2024-06-24 10:01:45,610 INFO 127.0.0.1 - - [24/Jun/2024 10:01:45] "GET /debug/quit HTTP/1.1" 200 -
+2024-06-24 10:01:45,796 INFO 127.0.0.1 - - [24/Jun/2024 10:01:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-24 10:02:13,010 INFO Running command: history
+2024-06-24 10:02:13,063 ERROR Command 'history' failed with error: b"'history' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"
+2024-06-24 10:02:13,064 INFO 127.0.0.1 - - [24/Jun/2024 10:02:13] "GET /debug/history HTTP/1.1" 200 -
+2024-06-24 10:05:50,738 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:05:50,738 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:05:50,739 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:05:50,740 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:05:51,629 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:06:03,666 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 10:06:03,666 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 10:06:03,676 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:06:04,084 WARNING  * Debugger is active!
+2024-06-24 10:06:04,087 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:06:08,063 INFO 127.0.0.1 - - [24/Jun/2024 10:06:08] "GET / HTTP/1.1" 200 -
+2024-06-24 10:06:08,423 INFO 127.0.0.1 - - [24/Jun/2024 10:06:08] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 10:06:08,427 INFO 127.0.0.1 - - [24/Jun/2024 10:06:08] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 10:06:08,428 INFO 127.0.0.1 - - [24/Jun/2024 10:06:08] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 10:06:08,428 INFO 127.0.0.1 - - [24/Jun/2024 10:06:08] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 10:06:08,841 INFO 127.0.0.1 - - [24/Jun/2024 10:06:08] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 10:07:14,698 ERROR Error setting terminal ANSI: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "c:\Users\Keerthana\Documents\GitHub\vpp-gorilla-technology\controller.py", line 75, in post
+    data = request.json
+           ^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\werkzeug\wrappers\request.py", line 558, in json
+    return self.get_json()
+           ^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\werkzeug\wrappers\request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\wrappers.py", line 130, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\werkzeug\wrappers\request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-06-24 10:07:14,747 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2024-06-24 10:07:14,750 INFO 127.0.0.1 - - [24/Jun/2024 10:07:14] "[35m[1mPOST /debug/terminal/ansi HTTP/1.1[0m" 500 -
+2024-06-24 10:07:15,466 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:07:15,916 WARNING  * Debugger is active!
+2024-06-24 10:07:15,919 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:07:17,986 ERROR Error setting terminal ANSI: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "c:\Users\Keerthana\Documents\GitHub\vpp-gorilla-technology\controller.py", line 75, in post
+    data = request.json
+           ^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\werkzeug\wrappers\request.py", line 558, in json
+    return self.get_json()
+           ^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\werkzeug\wrappers\request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\wrappers.py", line 130, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\werkzeug\wrappers\request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-06-24 10:07:17,987 INFO 127.0.0.1 - - [24/Jun/2024 10:07:17] "[35m[1mPOST /debug/terminal/ansi HTTP/1.1[0m" 500 -
+2024-06-24 10:08:37,721 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:08:37,722 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:08:37,723 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:08:38,276 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:28:02,473 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 10:28:02,473 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 10:28:02,483 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:28:02,880 WARNING  * Debugger is active!
+2024-06-24 10:28:02,883 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:28:16,715 INFO 127.0.0.1 - - [24/Jun/2024 10:28:16] "GET / HTTP/1.1" 200 -
+2024-06-24 10:28:16,844 INFO 127.0.0.1 - - [24/Jun/2024 10:28:16] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 10:28:16,845 INFO 127.0.0.1 - - [24/Jun/2024 10:28:16] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 10:28:16,845 INFO 127.0.0.1 - - [24/Jun/2024 10:28:16] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 10:28:16,847 INFO 127.0.0.1 - - [24/Jun/2024 10:28:16] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 10:28:17,222 INFO 127.0.0.1 - - [24/Jun/2024 10:28:17] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 10:30:40,355 INFO Running command: event-logger stop
+2024-06-24 10:30:40,393 ERROR Command 'event-logger stop' failed with error: b"'event-logger' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"
+2024-06-24 10:30:40,394 INFO 127.0.0.1 - - [24/Jun/2024 10:30:40] "GET /event-logger/stop HTTP/1.1" 200 -
+2024-06-24 10:31:38,479 INFO 127.0.0.1 - - [24/Jun/2024 10:31:38] "GET / HTTP/1.1" 200 -
+2024-06-24 10:31:38,493 INFO 127.0.0.1 - - [24/Jun/2024 10:31:38] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 10:31:38,498 INFO 127.0.0.1 - - [24/Jun/2024 10:31:38] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 10:31:38,498 INFO 127.0.0.1 - - [24/Jun/2024 10:31:38] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 10:31:38,499 INFO 127.0.0.1 - - [24/Jun/2024 10:31:38] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 10:31:38,891 INFO 127.0.0.1 - - [24/Jun/2024 10:31:38] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 10:31:38,928 INFO 127.0.0.1 - - [24/Jun/2024 10:31:38] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 10:32:11,115 INFO 127.0.0.1 - - [24/Jun/2024 10:32:11] "[33mGET /de HTTP/1.1[0m" 404 -
+2024-06-24 10:32:11,334 INFO 127.0.0.1 - - [24/Jun/2024 10:32:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-24 10:32:16,227 INFO Running command: quit
+2024-06-24 10:32:16,249 ERROR Command 'quit' failed with error: b"'quit' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"
+2024-06-24 10:32:16,250 INFO 127.0.0.1 - - [24/Jun/2024 10:32:16] "GET /debug/quit HTTP/1.1" 200 -
+2024-06-24 10:32:31,603 INFO Running command: quit
+2024-06-24 10:32:31,628 ERROR Command 'quit' failed with error: b"'quit' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"
+2024-06-24 10:32:31,630 INFO 127.0.0.1 - - [24/Jun/2024 10:32:31] "GET /debug/quit HTTP/1.1" 200 -
+2024-06-24 10:32:34,960 INFO 127.0.0.1 - - [24/Jun/2024 10:32:34] "GET / HTTP/1.1" 200 -
+2024-06-24 10:32:34,976 INFO 127.0.0.1 - - [24/Jun/2024 10:32:34] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 10:32:34,981 INFO 127.0.0.1 - - [24/Jun/2024 10:32:34] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 10:32:34,983 INFO 127.0.0.1 - - [24/Jun/2024 10:32:34] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 10:32:34,984 INFO 127.0.0.1 - - [24/Jun/2024 10:32:34] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 10:32:35,141 INFO 127.0.0.1 - - [24/Jun/2024 10:32:35] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 10:42:17,923 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\command.py', reloading
+2024-06-24 10:42:18,576 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vlib_api_client.py', reloading
+2024-06-24 10:42:18,741 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:42:19,186 WARNING  * Debugger is active!
+2024-06-24 10:42:19,189 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:43:00,302 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\debug_client.py', reloading
+2024-06-24 10:43:00,302 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\event_logger_client.py', reloading
+2024-06-24 10:43:00,304 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\interface_manager_client.py', reloading
+2024-06-24 10:43:00,306 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\plugins\\ila_lient.py', reloading
+2024-06-24 10:43:00,307 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\plugins\\ioam_client.py', reloading
+2024-06-24 10:43:00,308 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\plugins\\lb_client.py', reloading
+2024-06-24 10:43:00,308 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\plugins\\snat_client.py', reloading
+2024-06-24 10:43:00,393 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:43:00,816 WARNING  * Debugger is active!
+2024-06-24 10:43:00,820 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:43:42,082 INFO  * Detected change in 'C:\\Python311\\Lib\\typing.py', reloading
+2024-06-24 10:43:43,057 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:43:43,466 WARNING  * Debugger is active!
+2024-06-24 10:43:43,469 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:43:44,269 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\__init__.py', reloading
+2024-06-24 10:43:44,270 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\app.py', reloading
+2024-06-24 10:43:44,274 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\globals.py', reloading
+2024-06-24 10:43:44,277 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2024-06-24 10:43:44,282 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\__init__.py', reloading
+2024-06-24 10:43:44,284 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2024-06-24 10:43:44,292 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+2024-06-24 10:43:44,606 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:43:45,111 WARNING  * Debugger is active!
+2024-06-24 10:43:45,114 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:44:35,362 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:44:35,363 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:44:35,363 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:44:35,364 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:44:36,391 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:44:36,795 WARNING  * Debugger is active!
+2024-06-24 10:44:36,798 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:44:56,264 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:44:56,265 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:44:56,265 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:44:56,978 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:44:57,387 WARNING  * Debugger is active!
+2024-06-24 10:44:57,390 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:45:04,957 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 10:45:04,957 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 10:45:04,969 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:45:05,328 WARNING  * Debugger is active!
+2024-06-24 10:45:05,331 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:45:10,452 INFO 127.0.0.1 - - [24/Jun/2024 10:45:10] "GET / HTTP/1.1" 200 -
+2024-06-24 10:45:10,592 INFO 127.0.0.1 - - [24/Jun/2024 10:45:10] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 10:45:10,598 INFO 127.0.0.1 - - [24/Jun/2024 10:45:10] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 10:45:10,601 INFO 127.0.0.1 - - [24/Jun/2024 10:45:10] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 10:45:10,602 INFO 127.0.0.1 - - [24/Jun/2024 10:45:10] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 10:45:10,974 INFO 127.0.0.1 - - [24/Jun/2024 10:45:10] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 10:45:11,001 INFO 127.0.0.1 - - [24/Jun/2024 10:45:11] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 10:47:34,474 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_restx\\__init__.py', reloading
+2024-06-24 10:47:34,475 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_restx\\api.py', reloading
+2024-06-24 10:47:34,477 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_restx\\resource.py', reloading
+2024-06-24 10:47:34,480 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_restx\\fields.py', reloading
+2024-06-24 10:47:34,877 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:47:35,445 WARNING  * Debugger is active!
+2024-06-24 10:47:35,452 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:50:35,006 ERROR Error listing interfaces: 'InterfaceManagerClient' object has no attribute 'list_interfaces'
+Traceback (most recent call last):
+  File "c:\Users\Keerthana\Documents\GitHub\vpp-gorilla-technology\controller.py", line 208, in get
+    output = interface_manager_client.list_interfaces()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'InterfaceManagerClient' object has no attribute 'list_interfaces'
+2024-06-24 10:50:35,008 INFO 127.0.0.1 - - [24/Jun/2024 10:50:35] "[35m[1mGET /interface/list HTTP/1.1[0m" 500 -
+2024-06-24 10:50:39,945 ERROR Error listing interfaces: 'InterfaceManagerClient' object has no attribute 'list_interfaces'
+Traceback (most recent call last):
+  File "c:\Users\Keerthana\Documents\GitHub\vpp-gorilla-technology\controller.py", line 208, in get
+    output = interface_manager_client.list_interfaces()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'InterfaceManagerClient' object has no attribute 'list_interfaces'
+2024-06-24 10:50:39,946 INFO 127.0.0.1 - - [24/Jun/2024 10:50:39] "[35m[1mGET /interface/list HTTP/1.1[0m" 500 -
+2024-06-24 10:52:53,320 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:52:53,320 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:52:53,320 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:52:53,321 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:52:53,490 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:52:53,865 WARNING  * Debugger is active!
+2024-06-24 10:52:53,870 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:52:59,505 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:52:59,507 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:52:59,508 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:52:59,960 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:53:00,348 WARNING  * Debugger is active!
+2024-06-24 10:53:00,351 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:53:01,767 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:01,770 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:01,770 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:01,772 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:02,455 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:53:02,858 WARNING  * Debugger is active!
+2024-06-24 10:53:02,862 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:53:03,732 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:03,733 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:03,735 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:03,737 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:03,971 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:53:04,441 WARNING  * Debugger is active!
+2024-06-24 10:53:04,443 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:53:05,107 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:05,109 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:05,109 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:05,110 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:05,538 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:53:06,012 WARNING  * Debugger is active!
+2024-06-24 10:53:06,015 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:53:11,150 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:11,151 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:11,151 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:11,152 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:12,227 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:53:12,701 WARNING  * Debugger is active!
+2024-06-24 10:53:12,706 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:53:50,979 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:50,980 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:50,983 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:50,984 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:51,941 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:53:52,398 WARNING  * Debugger is active!
+2024-06-24 10:53:52,401 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:53:57,438 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:57,439 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:57,439 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:53:58,582 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:53:59,006 WARNING  * Debugger is active!
+2024-06-24 10:53:59,009 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:54:00,059 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:54:00,063 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:54:00,064 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:54:00,064 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:54:01,151 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:54:01,643 WARNING  * Debugger is active!
+2024-06-24 10:54:01,647 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:54:03,941 INFO 127.0.0.1 - - [24/Jun/2024 10:54:03] "GET / HTTP/1.1" 200 -
+2024-06-24 10:54:04,104 INFO 127.0.0.1 - - [24/Jun/2024 10:54:04] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 10:54:04,105 INFO 127.0.0.1 - - [24/Jun/2024 10:54:04] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 10:54:04,108 INFO 127.0.0.1 - - [24/Jun/2024 10:54:04] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 10:54:04,108 INFO 127.0.0.1 - - [24/Jun/2024 10:54:04] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 10:54:04,312 INFO 127.0.0.1 - - [24/Jun/2024 10:54:04] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 10:54:04,329 INFO 127.0.0.1 - - [24/Jun/2024 10:54:04] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 10:55:21,153 INFO Running command: delete loopback interface intfc ip 
+2024-06-24 10:55:21,175 ERROR Command 'delete loopback interface intfc ip ' failed with error: b"'delete' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"
+2024-06-24 10:55:21,175 INFO 127.0.0.1 - - [24/Jun/2024 10:55:21] "DELETE /interface/delete-loopback/ip%20 HTTP/1.1" 200 -
+2024-06-24 10:55:22,820 INFO Running command: delete loopback interface intfc ip 
+2024-06-24 10:55:22,831 ERROR Command 'delete loopback interface intfc ip ' failed with error: b"'delete' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"
+2024-06-24 10:55:22,831 INFO 127.0.0.1 - - [24/Jun/2024 10:55:22] "DELETE /interface/delete-loopback/ip%20 HTTP/1.1" 200 -
+2024-06-24 10:55:49,519 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:55:49,520 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:55:49,521 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:55:49,522 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:55:50,052 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:55:50,419 WARNING  * Debugger is active!
+2024-06-24 10:55:50,422 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:58:00,681 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:58:00,682 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:58:00,684 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:58:00,685 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:58:00,958 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:01:19,978 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 11:01:19,978 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 11:01:19,988 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:01:20,478 WARNING  * Debugger is active!
+2024-06-24 11:01:20,481 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:01:23,955 INFO 127.0.0.1 - - [24/Jun/2024 11:01:23] "GET / HTTP/1.1" 200 -
+2024-06-24 11:01:24,125 INFO 127.0.0.1 - - [24/Jun/2024 11:01:24] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 11:01:24,127 INFO 127.0.0.1 - - [24/Jun/2024 11:01:24] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 11:01:24,128 INFO 127.0.0.1 - - [24/Jun/2024 11:01:24] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 11:01:24,128 INFO 127.0.0.1 - - [24/Jun/2024 11:01:24] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 11:01:24,596 INFO 127.0.0.1 - - [24/Jun/2024 11:01:24] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 11:01:24,638 INFO 127.0.0.1 - - [24/Jun/2024 11:01:24] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 11:01:46,810 INFO Running command: show api clients
+2024-06-24 11:01:46,824 ERROR Command 'show api clients' failed with error: b"'show' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"
+2024-06-24 11:01:46,824 INFO 127.0.0.1 - - [24/Jun/2024 11:01:46] "GET /vlib/show_api_clients HTTP/1.1" 200 -
+2024-06-24 11:01:49,596 INFO Running command: show api clients
+2024-06-24 11:01:49,615 ERROR Command 'show api clients' failed with error: b"'show' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"
+2024-06-24 11:01:49,615 INFO 127.0.0.1 - - [24/Jun/2024 11:01:49] "GET /vlib/show_api_clients HTTP/1.1" 200 -
+2024-06-24 11:01:50,552 INFO Running command: show api clients
+2024-06-24 11:01:50,570 ERROR Command 'show api clients' failed with error: b"'show' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"
+2024-06-24 11:01:50,570 INFO 127.0.0.1 - - [24/Jun/2024 11:01:50] "GET /vlib/show_api_clients HTTP/1.1" 200 -
+2024-06-24 11:01:51,256 INFO Running command: show api clients
+2024-06-24 11:01:51,284 ERROR Command 'show api clients' failed with error: b"'show' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"
+2024-06-24 11:01:51,285 INFO 127.0.0.1 - - [24/Jun/2024 11:01:51] "GET /vlib/show_api_clients HTTP/1.1" 200 -
+2024-06-24 11:04:31,455 INFO  * Detected change in 'C:\\Python311\\Lib\\logging\\__init__.py', reloading
+2024-06-24 11:04:32,165 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:04:32,542 WARNING  * Debugger is active!
+2024-06-24 11:04:32,546 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:04:53,704 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:04:53,705 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:04:53,706 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:04:53,707 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:04:54,743 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:04:55,216 WARNING  * Debugger is active!
+2024-06-24 11:04:55,219 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:05:00,829 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:05:00,833 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:05:00,834 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:05:00,835 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:05:01,341 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:05:01,738 WARNING  * Debugger is active!
+2024-06-24 11:05:01,741 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:05:03,476 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:05:03,479 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:05:03,480 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:05:03,480 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:05:03,866 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:05:04,390 WARNING  * Debugger is active!
+2024-06-24 11:05:04,394 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:05:11,561 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:05:11,565 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:05:11,566 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:05:12,504 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:05:12,909 WARNING  * Debugger is active!
+2024-06-24 11:05:12,912 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:05:16,866 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:05:16,867 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:05:16,867 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:05:16,867 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:05:17,005 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:05:17,431 WARNING  * Debugger is active!
+2024-06-24 11:05:17,435 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:05:19,794 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:05:19,798 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:05:19,799 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:05:19,800 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:05:20,566 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:05:21,107 WARNING  * Debugger is active!
+2024-06-24 11:05:21,110 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:07:13,913 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:07:13,914 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:07:13,915 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:07:13,915 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:07:14,531 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:07:15,025 WARNING  * Debugger is active!
+2024-06-24 11:07:15,031 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:07:18,776 INFO 127.0.0.1 - - [24/Jun/2024 11:07:18] "GET / HTTP/1.1" 200 -
+2024-06-24 11:07:18,914 INFO 127.0.0.1 - - [24/Jun/2024 11:07:18] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 11:07:18,917 INFO 127.0.0.1 - - [24/Jun/2024 11:07:18] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 11:07:18,918 INFO 127.0.0.1 - - [24/Jun/2024 11:07:18] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 11:07:18,919 INFO 127.0.0.1 - - [24/Jun/2024 11:07:18] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 11:07:19,143 INFO 127.0.0.1 - - [24/Jun/2024 11:07:19] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 11:07:19,157 INFO 127.0.0.1 - - [24/Jun/2024 11:07:19] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 11:08:00,866 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:08:00,867 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:08:00,870 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:08:00,871 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:08:01,177 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:08:01,177 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:08:01,179 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:08:01,321 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:08:01,726 WARNING  * Debugger is active!
+2024-06-24 11:08:01,731 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:11:35,302 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:11:35,303 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:11:35,303 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:11:35,303 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:11:35,474 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:38:43,648 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 11:38:43,648 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 11:38:43,683 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:38:44,178 WARNING  * Debugger is active!
+2024-06-24 11:38:44,182 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:38:48,010 INFO 127.0.0.1 - - [24/Jun/2024 11:38:48] "GET / HTTP/1.1" 200 -
+2024-06-24 11:38:48,142 INFO 127.0.0.1 - - [24/Jun/2024 11:38:48] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 11:38:48,147 INFO 127.0.0.1 - - [24/Jun/2024 11:38:48] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 11:38:48,168 INFO 127.0.0.1 - - [24/Jun/2024 11:38:48] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 11:38:48,222 INFO 127.0.0.1 - - [24/Jun/2024 11:38:48] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 11:38:48,505 INFO 127.0.0.1 - - [24/Jun/2024 11:38:48] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 11:38:48,534 INFO 127.0.0.1 - - [24/Jun/2024 11:38:48] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 11:43:28,609 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\command.py', reloading
+2024-06-24 11:43:28,619 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\debug_client.py', reloading
+2024-06-24 11:43:28,619 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\event_logger_client.py', reloading
+2024-06-24 11:43:28,619 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\interface_manager_client.py', reloading
+2024-06-24 11:43:28,620 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vlib_api_client.py', reloading
+2024-06-24 11:43:28,620 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\plugins\\ila_lient.py', reloading
+2024-06-24 11:43:28,620 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\plugins\\ioam_client.py', reloading
+2024-06-24 11:43:28,620 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\plugins\\lb_client.py', reloading
+2024-06-24 11:43:28,620 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\plugins\\snat_client.py', reloading
+2024-06-24 11:43:28,620 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\plugins\\vcgn_client.py', reloading
+2024-06-24 11:43:28,620 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\appacket_client.py', reloading
+2024-06-24 11:43:28,620 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\cdp_client.py', reloading
+2024-06-24 11:43:28,621 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\classify_client.py', reloading
+2024-06-24 11:43:28,621 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\cop_client.py', reloading
+2024-06-24 11:43:28,621 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\dhcp_client.py', reloading
+2024-06-24 11:43:28,621 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\dpdk_client.py', reloading
+2024-06-24 11:43:28,621 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\flow_client.py', reloading
+2024-06-24 11:43:28,622 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\gre_client.py', reloading
+2024-06-24 11:43:28,622 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\netmap_client.py', reloading
+2024-06-24 11:43:28,622 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\virtio_client.py', reloading
+2024-06-24 11:43:28,622 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\vnet_client.py', reloading
+2024-06-24 11:43:29,132 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:43:29,546 WARNING  * Debugger is active!
+2024-06-24 11:43:29,549 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:43:31,455 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:43:31,456 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:43:31,461 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:43:31,675 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:43:32,158 WARNING  * Debugger is active!
+2024-06-24 11:43:32,160 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:43:42,862 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:43:42,862 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:43:42,863 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:43:42,864 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:43:43,307 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:43:43,729 WARNING  * Debugger is active!
+2024-06-24 11:43:43,732 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:43:44,640 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:43:44,642 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:43:44,642 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:43:44,642 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:43:44,862 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:43:45,315 WARNING  * Debugger is active!
+2024-06-24 11:43:45,318 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:43:45,565 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:43:45,566 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:43:45,567 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:43:45,568 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:43:46,439 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:43:47,000 WARNING  * Debugger is active!
+2024-06-24 11:43:47,005 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:43:55,001 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\__init__.py', reloading
+2024-06-24 11:43:55,002 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\app.py', reloading
+2024-06-24 11:43:55,005 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\globals.py', reloading
+2024-06-24 11:43:55,007 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2024-06-24 11:43:55,012 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\__init__.py', reloading
+2024-06-24 11:43:55,013 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2024-06-24 11:43:55,112 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:43:55,528 WARNING  * Debugger is active!
+2024-06-24 11:43:55,531 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:43:59,368 INFO  * Detected change in 'C:\\Python311\\Lib\\typing.py', reloading
+2024-06-24 11:43:59,520 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:43:59,525 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:43:59,526 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:43:59,626 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:44:00,039 WARNING  * Debugger is active!
+2024-06-24 11:44:00,042 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:44:01,433 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:44:01,433 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:44:01,434 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:44:02,145 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:44:02,528 WARNING  * Debugger is active!
+2024-06-24 11:44:02,532 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:44:10,911 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:44:10,913 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:44:10,918 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:44:10,919 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:44:11,680 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:44:12,188 WARNING  * Debugger is active!
+2024-06-24 11:44:12,191 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:45:09,180 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:45:09,182 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:45:09,182 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:45:09,436 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:45:09,891 WARNING  * Debugger is active!
+2024-06-24 11:45:09,894 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:45:12,133 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:45:12,137 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:45:12,137 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:45:12,139 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:45:12,338 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:45:12,339 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:45:12,341 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:45:12,984 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:45:13,480 WARNING  * Debugger is active!
+2024-06-24 11:45:13,484 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:45:15,898 INFO 127.0.0.1 - - [24/Jun/2024 11:45:15] "GET / HTTP/1.1" 200 -
+2024-06-24 11:45:16,033 INFO 127.0.0.1 - - [24/Jun/2024 11:45:16] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 11:45:16,036 INFO 127.0.0.1 - - [24/Jun/2024 11:45:16] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 11:45:16,037 INFO 127.0.0.1 - - [24/Jun/2024 11:45:16] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 11:45:16,038 INFO 127.0.0.1 - - [24/Jun/2024 11:45:16] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 11:45:16,341 INFO 127.0.0.1 - - [24/Jun/2024 11:45:16] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 11:45:16,365 INFO 127.0.0.1 - - [24/Jun/2024 11:45:16] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 11:45:49,761 INFO 127.0.0.1 - - [24/Jun/2024 11:45:49] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 11:47:45,481 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_restx\\__init__.py', reloading
+2024-06-24 11:47:45,482 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_restx\\api.py', reloading
+2024-06-24 11:47:45,483 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_restx\\resource.py', reloading
+2024-06-24 11:47:45,487 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_restx\\fields.py', reloading
+2024-06-24 11:47:46,048 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:47:46,447 WARNING  * Debugger is active!
+2024-06-24 11:47:46,450 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:49:39,029 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\cop_client.py', reloading
+2024-06-24 11:49:39,030 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\cop_client.py', reloading
+2024-06-24 11:49:39,032 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\cop_client.py', reloading
+2024-06-24 11:49:39,033 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\cop_client.py', reloading
+2024-06-24 11:49:39,935 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:49:40,384 WARNING  * Debugger is active!
+2024-06-24 11:49:40,387 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:49:41,890 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\cop_client.py', reloading
+2024-06-24 11:49:41,895 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\cop_client.py', reloading
+2024-06-24 11:49:41,896 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\cop_client.py', reloading
+2024-06-24 11:49:41,896 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\cop_client.py', reloading
+2024-06-24 11:49:42,454 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:49:42,938 WARNING  * Debugger is active!
+2024-06-24 11:49:42,942 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:49:45,781 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\cop_client.py', reloading
+2024-06-24 11:49:45,781 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\cop_client.py', reloading
+2024-06-24 11:49:45,782 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\cop_client.py', reloading
+2024-06-24 11:49:46,136 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:49:46,570 WARNING  * Debugger is active!
+2024-06-24 11:49:46,574 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:50:34,836 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:50:34,839 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:50:34,841 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:50:34,842 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:50:35,822 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:55:05,670 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 11:55:05,670 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 11:55:05,680 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:55:06,062 WARNING  * Debugger is active!
+2024-06-24 11:55:06,065 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:55:11,461 INFO 127.0.0.1 - - [24/Jun/2024 11:55:11] "GET / HTTP/1.1" 200 -
+2024-06-24 11:55:11,611 INFO 127.0.0.1 - - [24/Jun/2024 11:55:11] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 11:55:11,613 INFO 127.0.0.1 - - [24/Jun/2024 11:55:11] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 11:55:11,616 INFO 127.0.0.1 - - [24/Jun/2024 11:55:11] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 11:55:11,616 INFO 127.0.0.1 - - [24/Jun/2024 11:55:11] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 11:55:12,107 INFO 127.0.0.1 - - [24/Jun/2024 11:55:12] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 11:55:12,145 INFO 127.0.0.1 - - [24/Jun/2024 11:55:12] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 11:55:33,905 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:55:33,910 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:55:33,911 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:55:34,334 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:57:16,754 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 11:57:16,754 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 11:57:16,763 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:57:17,161 WARNING  * Debugger is active!
+2024-06-24 11:57:17,165 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:57:19,779 INFO 127.0.0.1 - - [24/Jun/2024 11:57:19] "GET / HTTP/1.1" 200 -
+2024-06-24 11:57:19,916 INFO 127.0.0.1 - - [24/Jun/2024 11:57:19] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 11:57:19,917 INFO 127.0.0.1 - - [24/Jun/2024 11:57:19] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 11:57:19,918 INFO 127.0.0.1 - - [24/Jun/2024 11:57:19] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 11:57:19,919 INFO 127.0.0.1 - - [24/Jun/2024 11:57:19] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 11:57:20,233 INFO 127.0.0.1 - - [24/Jun/2024 11:57:20] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 11:57:20,262 INFO 127.0.0.1 - - [24/Jun/2024 11:57:20] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 11:59:40,080 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:59:40,084 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:59:40,085 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:59:40,086 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:59:40,739 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:59:41,150 WARNING  * Debugger is active!
+2024-06-24 11:59:41,153 INFO  * Debugger PIN: 136-464-205
+2024-06-24 11:59:45,219 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:59:45,221 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:59:45,222 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:59:45,223 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 11:59:46,278 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 11:59:46,740 WARNING  * Debugger is active!
+2024-06-24 11:59:46,743 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:00:00,060 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:00,061 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:00,061 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:00,061 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:00,917 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:00:01,319 WARNING  * Debugger is active!
+2024-06-24 12:00:01,322 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:00:03,762 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:03,765 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:03,766 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:03,767 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:04,465 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:00:04,942 WARNING  * Debugger is active!
+2024-06-24 12:00:04,945 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:00:12,653 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:12,654 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:12,656 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:13,111 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:00:13,649 WARNING  * Debugger is active!
+2024-06-24 12:00:13,652 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:00:26,055 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:26,056 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:26,057 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:26,057 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:26,825 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:00:27,289 WARNING  * Debugger is active!
+2024-06-24 12:00:27,292 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:00:37,512 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\helpers.py', reloading
+2024-06-24 12:00:37,522 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_restx\\namespace.py', reloading
+2024-06-24 12:00:38,454 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:00:38,870 WARNING  * Debugger is active!
+2024-06-24 12:00:38,873 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:00:41,449 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:41,449 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:41,450 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:41,451 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:41,970 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:00:42,445 WARNING  * Debugger is active!
+2024-06-24 12:00:42,448 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:00:54,669 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:54,671 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:54,671 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:54,671 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:54,884 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:54,890 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:54,891 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:54,891 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:00:55,615 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:00:56,028 WARNING  * Debugger is active!
+2024-06-24 12:00:56,032 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:01:05,794 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 12:01:05,794 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 12:01:05,802 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:01:06,257 WARNING  * Debugger is active!
+2024-06-24 12:01:06,260 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:01:08,609 INFO 127.0.0.1 - - [24/Jun/2024 12:01:08] "GET / HTTP/1.1" 200 -
+2024-06-24 12:01:08,792 INFO 127.0.0.1 - - [24/Jun/2024 12:01:08] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 12:01:08,793 INFO 127.0.0.1 - - [24/Jun/2024 12:01:08] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 12:01:08,794 INFO 127.0.0.1 - - [24/Jun/2024 12:01:08] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 12:01:08,794 INFO 127.0.0.1 - - [24/Jun/2024 12:01:08] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 12:01:09,050 INFO 127.0.0.1 - - [24/Jun/2024 12:01:09] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 12:01:09,064 INFO 127.0.0.1 - - [24/Jun/2024 12:01:09] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 12:03:04,205 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:03:04,207 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:03:04,209 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:03:04,753 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:03:05,169 WARNING  * Debugger is active!
+2024-06-24 12:03:05,172 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:03:06,095 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:03:06,097 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:03:06,097 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:03:06,294 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:03:06,771 WARNING  * Debugger is active!
+2024-06-24 12:03:06,774 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:05:21,210 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:05:21,294 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:11:24,186 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 12:11:24,186 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 12:11:24,195 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:11:24,624 WARNING  * Debugger is active!
+2024-06-24 12:11:24,630 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:11:29,687 INFO 127.0.0.1 - - [24/Jun/2024 12:11:29] "GET / HTTP/1.1" 200 -
+2024-06-24 12:11:29,843 INFO 127.0.0.1 - - [24/Jun/2024 12:11:29] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 12:11:29,844 INFO 127.0.0.1 - - [24/Jun/2024 12:11:29] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 12:11:29,844 INFO 127.0.0.1 - - [24/Jun/2024 12:11:29] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 12:11:29,846 INFO 127.0.0.1 - - [24/Jun/2024 12:11:29] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 12:11:30,360 INFO 127.0.0.1 - - [24/Jun/2024 12:11:30] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 12:11:30,390 INFO 127.0.0.1 - - [24/Jun/2024 12:11:30] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 12:12:41,618 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:12:41,618 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:12:41,620 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:12:41,622 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:12:42,003 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:13:50,472 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 12:13:50,472 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 12:13:50,480 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:13:50,928 WARNING  * Debugger is active!
+2024-06-24 12:13:50,932 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:13:54,996 INFO 127.0.0.1 - - [24/Jun/2024 12:13:54] "GET / HTTP/1.1" 200 -
+2024-06-24 12:13:55,156 INFO 127.0.0.1 - - [24/Jun/2024 12:13:55] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 12:13:55,157 INFO 127.0.0.1 - - [24/Jun/2024 12:13:55] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 12:13:55,158 INFO 127.0.0.1 - - [24/Jun/2024 12:13:55] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 12:13:55,159 INFO 127.0.0.1 - - [24/Jun/2024 12:13:55] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 12:13:55,639 INFO 127.0.0.1 - - [24/Jun/2024 12:13:55] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 12:13:55,667 INFO 127.0.0.1 - - [24/Jun/2024 12:13:55] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 12:15:39,940 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:15:39,945 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:15:39,947 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:15:39,948 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:15:40,471 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:19:20,712 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 12:19:20,712 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 12:19:20,721 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:19:21,164 WARNING  * Debugger is active!
+2024-06-24 12:19:21,168 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:19:25,084 INFO 127.0.0.1 - - [24/Jun/2024 12:19:25] "GET / HTTP/1.1" 200 -
+2024-06-24 12:19:25,213 INFO 127.0.0.1 - - [24/Jun/2024 12:19:25] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 12:19:25,216 INFO 127.0.0.1 - - [24/Jun/2024 12:19:25] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 12:19:25,217 INFO 127.0.0.1 - - [24/Jun/2024 12:19:25] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 12:19:25,217 INFO 127.0.0.1 - - [24/Jun/2024 12:19:25] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 12:19:25,426 INFO 127.0.0.1 - - [24/Jun/2024 12:19:25] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 12:19:25,433 INFO 127.0.0.1 - - [24/Jun/2024 12:19:25] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 12:23:53,470 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:23:53,471 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:23:53,477 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:23:53,478 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:23:54,295 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:23:54,787 WARNING  * Debugger is active!
+2024-06-24 12:23:54,790 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:24:01,594 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:24:01,595 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:24:01,598 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:24:01,926 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:24:02,466 WARNING  * Debugger is active!
+2024-06-24 12:24:02,469 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:24:05,604 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:24:05,607 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:24:05,608 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:24:05,609 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:24:06,589 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:28:39,631 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 12:28:39,631 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 12:28:39,639 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:28:40,056 WARNING  * Debugger is active!
+2024-06-24 12:28:40,058 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:28:43,471 INFO 127.0.0.1 - - [24/Jun/2024 12:28:43] "GET / HTTP/1.1" 200 -
+2024-06-24 12:28:43,629 INFO 127.0.0.1 - - [24/Jun/2024 12:28:43] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 12:28:43,629 INFO 127.0.0.1 - - [24/Jun/2024 12:28:43] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 12:28:43,632 INFO 127.0.0.1 - - [24/Jun/2024 12:28:43] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 12:28:43,633 INFO 127.0.0.1 - - [24/Jun/2024 12:28:43] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 12:28:43,843 INFO 127.0.0.1 - - [24/Jun/2024 12:28:43] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 12:28:43,851 INFO 127.0.0.1 - - [24/Jun/2024 12:28:43] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 12:29:04,134 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:04,134 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:04,135 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:05,241 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:29:05,672 WARNING  * Debugger is active!
+2024-06-24 12:29:05,675 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:29:11,251 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:11,255 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:11,255 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:11,813 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:29:12,355 WARNING  * Debugger is active!
+2024-06-24 12:29:12,358 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:29:17,634 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:17,638 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:17,638 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:18,511 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:29:18,952 WARNING  * Debugger is active!
+2024-06-24 12:29:18,955 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:29:21,026 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:21,028 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:21,029 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:21,029 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:22,084 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:29:22,702 WARNING  * Debugger is active!
+2024-06-24 12:29:22,707 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:29:24,656 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:24,660 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:24,660 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:24,661 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:24,820 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:29:25,269 WARNING  * Debugger is active!
+2024-06-24 12:29:25,271 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:29:27,151 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:27,152 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:27,153 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:27,370 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:29:27,889 WARNING  * Debugger is active!
+2024-06-24 12:29:27,892 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:29:32,560 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:32,563 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:32,565 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:33,053 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:29:33,628 WARNING  * Debugger is active!
+2024-06-24 12:29:33,631 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:29:49,994 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:49,995 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:49,996 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:29:50,809 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:30:22,332 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 12:30:22,332 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 12:30:22,343 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:30:22,748 WARNING  * Debugger is active!
+2024-06-24 12:30:22,750 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:30:26,122 INFO 127.0.0.1 - - [24/Jun/2024 12:30:26] "GET / HTTP/1.1" 200 -
+2024-06-24 12:30:26,266 INFO 127.0.0.1 - - [24/Jun/2024 12:30:26] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 12:30:26,269 INFO 127.0.0.1 - - [24/Jun/2024 12:30:26] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 12:30:26,270 INFO 127.0.0.1 - - [24/Jun/2024 12:30:26] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 12:30:26,270 INFO 127.0.0.1 - - [24/Jun/2024 12:30:26] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 12:30:26,513 INFO 127.0.0.1 - - [24/Jun/2024 12:30:26] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 12:30:26,520 INFO 127.0.0.1 - - [24/Jun/2024 12:30:26] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 12:30:59,267 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:30:59,272 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:30:59,273 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:30:59,991 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:33:14,672 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 12:33:14,673 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 12:33:14,683 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:33:15,099 WARNING  * Debugger is active!
+2024-06-24 12:33:15,103 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:33:18,221 INFO 127.0.0.1 - - [24/Jun/2024 12:33:18] "GET / HTTP/1.1" 200 -
+2024-06-24 12:33:18,363 INFO 127.0.0.1 - - [24/Jun/2024 12:33:18] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 12:33:18,369 INFO 127.0.0.1 - - [24/Jun/2024 12:33:18] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 12:33:18,370 INFO 127.0.0.1 - - [24/Jun/2024 12:33:18] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 12:33:18,370 INFO 127.0.0.1 - - [24/Jun/2024 12:33:18] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 12:33:18,600 INFO 127.0.0.1 - - [24/Jun/2024 12:33:18] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 12:33:18,605 INFO 127.0.0.1 - - [24/Jun/2024 12:33:18] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 12:34:04,299 INFO  * Detected change in 'C:\\Python311\\Lib\\os.py', reloading
+2024-06-24 12:34:05,396 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:34:05,961 WARNING  * Debugger is active!
+2024-06-24 12:34:05,964 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:34:33,722 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vxlan_client.py', reloading
+2024-06-24 12:34:34,209 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:34:34,695 WARNING  * Debugger is active!
+2024-06-24 12:34:34,698 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:38:37,775 INFO  * Detected change in 'C:\\Python311\\Lib\\subprocess.py', reloading
+2024-06-24 12:38:37,847 INFO  * Detected change in 'C:\\Python311\\Lib\\abc.py', reloading
+2024-06-24 12:38:38,673 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:38:39,179 WARNING  * Debugger is active!
+2024-06-24 12:38:39,182 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:38:47,549 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:38:47,549 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:38:47,552 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:38:47,553 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:38:48,298 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:38:48,839 WARNING  * Debugger is active!
+2024-06-24 12:38:48,842 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:39:44,662 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:39:44,666 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:39:44,668 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:39:44,668 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:39:45,167 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:39:45,752 WARNING  * Debugger is active!
+2024-06-24 12:39:45,756 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:39:49,170 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:39:49,171 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:39:49,913 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:39:50,353 WARNING  * Debugger is active!
+2024-06-24 12:39:50,356 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:39:50,452 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:39:50,452 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:39:50,456 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:39:50,457 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:39:50,656 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:39:50,657 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:39:50,657 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:39:50,658 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:39:51,455 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:39:51,973 WARNING  * Debugger is active!
+2024-06-24 12:39:51,977 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:39:53,612 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 12:39:53,612 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 12:39:53,619 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:39:54,034 WARNING  * Debugger is active!
+2024-06-24 12:39:54,037 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:39:57,158 INFO 127.0.0.1 - - [24/Jun/2024 12:39:57] "GET / HTTP/1.1" 200 -
+2024-06-24 12:39:57,299 INFO 127.0.0.1 - - [24/Jun/2024 12:39:57] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 12:39:57,302 INFO 127.0.0.1 - - [24/Jun/2024 12:39:57] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 12:39:57,304 INFO 127.0.0.1 - - [24/Jun/2024 12:39:57] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 12:39:57,304 INFO 127.0.0.1 - - [24/Jun/2024 12:39:57] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 12:39:57,579 INFO 127.0.0.1 - - [24/Jun/2024 12:39:57] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 12:39:57,586 INFO 127.0.0.1 - - [24/Jun/2024 12:39:57] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 12:40:52,301 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 12:40:52,301 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 12:40:52,309 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:40:52,790 WARNING  * Debugger is active!
+2024-06-24 12:40:52,794 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:40:55,747 INFO 127.0.0.1 - - [24/Jun/2024 12:40:55] "GET / HTTP/1.1" 200 -
+2024-06-24 12:40:55,893 INFO 127.0.0.1 - - [24/Jun/2024 12:40:55] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 12:40:55,896 INFO 127.0.0.1 - - [24/Jun/2024 12:40:55] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 12:40:55,897 INFO 127.0.0.1 - - [24/Jun/2024 12:40:55] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 12:40:55,897 INFO 127.0.0.1 - - [24/Jun/2024 12:40:55] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 12:40:56,138 INFO 127.0.0.1 - - [24/Jun/2024 12:40:56] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 12:40:56,140 INFO 127.0.0.1 - - [24/Jun/2024 12:40:56] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 12:41:03,323 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:41:03,323 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:41:03,323 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:41:03,917 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:41:04,349 WARNING  * Debugger is active!
+2024-06-24 12:41:04,352 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:41:06,508 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:41:06,510 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:41:06,511 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:41:06,512 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:41:07,504 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:41:07,967 WARNING  * Debugger is active!
+2024-06-24 12:41:07,970 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:41:08,054 INFO 127.0.0.1 - - [24/Jun/2024 12:41:08] "GET / HTTP/1.1" 200 -
+2024-06-24 12:41:08,197 INFO 127.0.0.1 - - [24/Jun/2024 12:41:08] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 12:41:08,199 INFO 127.0.0.1 - - [24/Jun/2024 12:41:08] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 12:41:08,200 INFO 127.0.0.1 - - [24/Jun/2024 12:41:08] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 12:41:08,201 INFO 127.0.0.1 - - [24/Jun/2024 12:41:08] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 12:41:08,269 INFO 127.0.0.1 - - [24/Jun/2024 12:41:08] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 12:41:08,276 INFO 127.0.0.1 - - [24/Jun/2024 12:41:08] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 12:42:56,497 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:42:56,498 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:42:56,498 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:42:56,498 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:42:57,436 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:42:57,881 WARNING  * Debugger is active!
+2024-06-24 12:42:57,884 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:43:10,576 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:43:10,579 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:43:10,580 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:43:10,580 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:43:11,074 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:43:11,570 WARNING  * Debugger is active!
+2024-06-24 12:43:11,572 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:43:12,773 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:43:12,773 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:43:12,774 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:43:12,774 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:43:13,733 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:43:14,252 WARNING  * Debugger is active!
+2024-06-24 12:43:14,255 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:44:15,171 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\__init__.py', reloading
+2024-06-24 12:44:15,181 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\views.py', reloading
+2024-06-24 12:44:15,197 INFO  * Detected change in 'C:\\Python311\\Lib\\typing.py', reloading
+2024-06-24 12:44:15,654 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:44:16,084 WARNING  * Debugger is active!
+2024-06-24 12:44:16,088 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:44:16,658 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\app.py', reloading
+2024-06-24 12:44:16,661 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\globals.py', reloading
+2024-06-24 12:44:16,663 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2024-06-24 12:44:16,665 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\__init__.py', reloading
+2024-06-24 12:44:16,667 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2024-06-24 12:44:17,233 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:44:17,689 WARNING  * Debugger is active!
+2024-06-24 12:44:17,692 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:44:19,501 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:44:19,507 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:44:19,507 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:44:19,833 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:44:53,721 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 12:44:53,722 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 12:44:53,735 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:44:54,158 WARNING  * Debugger is active!
+2024-06-24 12:44:54,160 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:44:57,211 INFO 127.0.0.1 - - [24/Jun/2024 12:44:57] "GET / HTTP/1.1" 200 -
+2024-06-24 12:44:57,339 INFO 127.0.0.1 - - [24/Jun/2024 12:44:57] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 12:44:57,341 INFO 127.0.0.1 - - [24/Jun/2024 12:44:57] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 12:44:57,342 INFO 127.0.0.1 - - [24/Jun/2024 12:44:57] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 12:44:57,344 INFO 127.0.0.1 - - [24/Jun/2024 12:44:57] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 12:44:57,599 INFO 127.0.0.1 - - [24/Jun/2024 12:44:57] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 12:44:57,608 INFO 127.0.0.1 - - [24/Jun/2024 12:44:57] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 12:45:16,031 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:45:16,032 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:45:16,033 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:45:16,412 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:45:16,895 WARNING  * Debugger is active!
+2024-06-24 12:45:16,898 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:45:17,154 INFO 127.0.0.1 - - [24/Jun/2024 12:45:17] "GET / HTTP/1.1" 200 -
+2024-06-24 12:45:17,316 INFO 127.0.0.1 - - [24/Jun/2024 12:45:17] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 12:45:17,319 INFO 127.0.0.1 - - [24/Jun/2024 12:45:17] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 12:45:17,320 INFO 127.0.0.1 - - [24/Jun/2024 12:45:17] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 12:45:17,322 INFO 127.0.0.1 - - [24/Jun/2024 12:45:17] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 12:45:17,420 INFO 127.0.0.1 - - [24/Jun/2024 12:45:17] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 12:45:17,424 INFO 127.0.0.1 - - [24/Jun/2024 12:45:17] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 12:46:15,368 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:46:15,369 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:46:15,371 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:46:16,279 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:46:16,784 WARNING  * Debugger is active!
+2024-06-24 12:46:16,787 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:49:41,926 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_vpp_api.py', reloading
+2024-06-24 12:49:41,926 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_vpp_api.py', reloading
+2024-06-24 12:49:41,928 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_vpp_api.py', reloading
+2024-06-24 12:49:41,928 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_vpp_api.py', reloading
+2024-06-24 12:49:41,928 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_vpp_api.py', reloading
+2024-06-24 12:49:41,947 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_app.py', reloading
+2024-06-24 12:49:41,948 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_app.py', reloading
+2024-06-24 12:49:41,949 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_app.py', reloading
+2024-06-24 12:49:41,949 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_app.py', reloading
+2024-06-24 12:49:41,950 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_app.py', reloading
+2024-06-24 12:49:41,951 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_app.py', reloading
+2024-06-24 12:49:41,970 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_oam.py', reloading
+2024-06-24 12:49:41,970 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_oam.py', reloading
+2024-06-24 12:49:41,971 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_oam.py', reloading
+2024-06-24 12:49:41,971 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_oam.py', reloading
+2024-06-24 12:49:41,971 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_oam.py', reloading
+2024-06-24 12:49:42,732 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:49:43,163 WARNING  * Debugger is active!
+2024-06-24 12:49:43,166 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:50:31,674 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_oam.py', reloading
+2024-06-24 12:50:31,675 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_oam.py', reloading
+2024-06-24 12:50:31,675 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_oam.py', reloading
+2024-06-24 12:50:32,479 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:50:33,032 WARNING  * Debugger is active!
+2024-06-24 12:50:33,035 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:50:37,662 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_oam.py', reloading
+2024-06-24 12:50:37,662 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_oam.py', reloading
+2024-06-24 12:50:37,664 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_oam.py', reloading
+2024-06-24 12:50:38,177 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:50:38,691 WARNING  * Debugger is active!
+2024-06-24 12:50:38,695 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:52:11,990 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_vpp_api.py', reloading
+2024-06-24 12:52:11,991 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_vpp_api.py', reloading
+2024-06-24 12:52:11,992 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_vpp_api.py', reloading
+2024-06-24 12:52:11,992 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_vpp_api.py', reloading
+2024-06-24 12:52:12,214 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:52:12,685 WARNING  * Debugger is active!
+2024-06-24 12:52:12,688 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:52:20,488 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_oam.py', reloading
+2024-06-24 12:52:20,489 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_oam.py', reloading
+2024-06-24 12:52:20,492 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_oam.py', reloading
+2024-06-24 12:52:20,869 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:52:21,356 WARNING  * Debugger is active!
+2024-06-24 12:52:21,359 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:52:32,220 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_app.py', reloading
+2024-06-24 12:52:32,221 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_app.py', reloading
+2024-06-24 12:52:32,222 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vpp_app.py', reloading
+2024-06-24 12:52:32,572 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:52:33,057 WARNING  * Debugger is active!
+2024-06-24 12:52:33,061 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:52:49,417 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_restx\\__init__.py', reloading
+2024-06-24 12:52:49,418 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_restx\\api.py', reloading
+2024-06-24 12:52:49,419 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_restx\\resource.py', reloading
+2024-06-24 12:52:49,421 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_restx\\fields.py', reloading
+2024-06-24 12:52:49,429 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\vpp\\vnet\\cop_client.py', reloading
+2024-06-24 12:52:50,264 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:52:50,725 WARNING  * Debugger is active!
+2024-06-24 12:52:50,728 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:54:21,994 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2024-06-24 12:54:22,046 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+2024-06-24 12:54:22,179 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:54:22,722 WARNING  * Debugger is active!
+2024-06-24 12:54:22,727 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:55:46,856 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:55:46,861 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:55:46,861 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:55:46,862 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 12:55:47,174 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:57:32,327 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 12:57:32,327 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 12:57:32,337 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 12:57:32,809 WARNING  * Debugger is active!
+2024-06-24 12:57:32,812 INFO  * Debugger PIN: 136-464-205
+2024-06-24 12:57:36,225 INFO 127.0.0.1 - - [24/Jun/2024 12:57:36] "GET / HTTP/1.1" 200 -
+2024-06-24 12:57:36,389 INFO 127.0.0.1 - - [24/Jun/2024 12:57:36] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 12:57:36,390 INFO 127.0.0.1 - - [24/Jun/2024 12:57:36] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 12:57:36,393 INFO 127.0.0.1 - - [24/Jun/2024 12:57:36] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 12:57:36,393 INFO 127.0.0.1 - - [24/Jun/2024 12:57:36] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 12:57:36,638 INFO 127.0.0.1 - - [24/Jun/2024 12:57:36] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 12:57:36,643 INFO 127.0.0.1 - - [24/Jun/2024 12:57:36] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 12:59:21,018 ERROR Error executing Show Sticky Classify command: VPPAppCommands.show_sticky_classify() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "c:\Users\Keerthana\Documents\GitHub\vpp-gorilla-technology\controller.py", line 1522, in post
+    stdout, stderr = vpp_app_commands.show_sticky_classify(command)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: VPPAppCommands.show_sticky_classify() takes 1 positional argument but 2 were given
+2024-06-24 12:59:21,019 INFO 127.0.0.1 - - [24/Jun/2024 12:59:21] "[35m[1mPOST /vpp-app/show-sticky-classify HTTP/1.1[0m" 500 -
+2024-06-24 12:59:22,770 ERROR Error executing Show Sticky Classify command: VPPAppCommands.show_sticky_classify() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "c:\Users\Keerthana\Documents\GitHub\vpp-gorilla-technology\controller.py", line 1522, in post
+    stdout, stderr = vpp_app_commands.show_sticky_classify(command)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: VPPAppCommands.show_sticky_classify() takes 1 positional argument but 2 were given
+2024-06-24 12:59:22,771 INFO 127.0.0.1 - - [24/Jun/2024 12:59:22] "[35m[1mPOST /vpp-app/show-sticky-classify HTTP/1.1[0m" 500 -
+2024-06-24 13:02:19,469 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 13:02:19,469 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 13:02:19,474 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 13:02:19,474 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 13:02:20,196 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 13:03:49,059 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 13:03:49,060 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 13:03:49,069 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 13:03:49,477 WARNING  * Debugger is active!
+2024-06-24 13:03:49,481 INFO  * Debugger PIN: 136-464-205
+2024-06-24 13:03:58,328 INFO 127.0.0.1 - - [24/Jun/2024 13:03:58] "GET / HTTP/1.1" 200 -
+2024-06-24 13:03:58,489 INFO 127.0.0.1 - - [24/Jun/2024 13:03:58] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 13:03:58,490 INFO 127.0.0.1 - - [24/Jun/2024 13:03:58] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 13:03:58,493 INFO 127.0.0.1 - - [24/Jun/2024 13:03:58] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 13:03:58,494 INFO 127.0.0.1 - - [24/Jun/2024 13:03:58] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 13:03:58,769 INFO 127.0.0.1 - - [24/Jun/2024 13:03:58] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 13:03:58,773 INFO 127.0.0.1 - - [24/Jun/2024 13:03:58] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-06-24 13:05:38,906 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 13:05:38,906 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 13:05:38,906 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 13:05:38,907 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 13:05:38,998 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 13:07:14,678 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 13:07:14,678 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 13:07:14,687 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 13:07:15,109 WARNING  * Debugger is active!
+2024-06-24 13:07:15,113 INFO  * Debugger PIN: 136-464-205
+2024-06-24 13:07:22,541 INFO 127.0.0.1 - - [24/Jun/2024 13:07:22] "GET / HTTP/1.1" 200 -
+2024-06-24 13:07:22,711 INFO 127.0.0.1 - - [24/Jun/2024 13:07:22] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 13:07:22,712 INFO 127.0.0.1 - - [24/Jun/2024 13:07:22] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 13:07:22,718 INFO 127.0.0.1 - - [24/Jun/2024 13:07:22] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 13:07:22,718 INFO 127.0.0.1 - - [24/Jun/2024 13:07:22] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 13:07:23,024 INFO 127.0.0.1 - - [24/Jun/2024 13:07:23] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 13:07:23,026 INFO 127.0.0.1 - - [24/Jun/2024 13:07:23] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
