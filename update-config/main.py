@@ -7,6 +7,9 @@ import traceback
 
 app = Flask(__name__)
 
+# The Nginx Part is purely for testing purposes but everything should work fine for FRR and VPP.
+
+
 # Generic function to save current configuration for a given service
 def save_current_config(command):
     result = subprocess.run(command, stdout=subprocess.PIPE, text=True, shell=True)
